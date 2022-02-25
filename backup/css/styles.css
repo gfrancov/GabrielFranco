@@ -1,0 +1,310 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* Si estas llegint aixo, ets un informatic massa tafaner. */
+
+body {
+    font-family: 'Montserrat';
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(236, 236, 236);
+    color: rgb(51, 51, 51);
+    text-align: center;
+}
+a {
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Barra de navegació */
+nav {
+    background-color: transparent;
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 70px;
+}
+nav ul li {
+    display: inline-block;
+    margin: 40px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+@media (max-width: 500px) {
+    nav ul li {
+        margin: 20px;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+}
+nav ul li a {
+    color:rgb(105, 105, 105);
+    font-weight: 600;
+    font-size: 20px;
+}
+nav ul li a:hover, .seleccionat a {
+    color:rgb(20, 20, 20);
+}
+
+/* Header */ 
+.logo {
+    width: 220px;
+    border-radius: 100%;
+    filter: grayscale(60%);
+}
+.logo:hover {
+    filter: grayscale(20%);
+}
+.portada h1 {
+    margin: 0;
+    margin-top: 15px;
+    font-size: 70px;
+    font-weight: 700;
+}
+.subtitol {
+    margin: 0;
+    padding: 0;
+    font-size: 22px;
+}
+.boto {
+    margin-top: 40px;
+}
+.boto a {
+    font-size: 18px;
+    font-weight: 600;
+    background-color: rgb(51, 51, 51);
+    color: rgb(236, 236, 236);
+    padding: 7px;
+    padding-right: 13px;
+    padding-left: 13px;
+    border: 2px solid rgb(51, 51, 51);
+}
+.boto a:hover {
+    font-weight: 600;
+    background-color: rgb(236, 236, 236);
+    color: rgb(51, 51, 51);
+}
+
+/* Contingut text */
+.contingut-text {
+    display: grid;
+    grid-template-columns: 20% auto 20%;
+    grid-template-rows: auto;
+}
+.interior-contingut {
+    grid-column: 2;
+    grid-row: 1;
+    text-align: left;
+}
+.text {
+    font-size: 20px;
+}
+.titol {
+    font-size: 37px;
+}
+    /* Mini curriculum sobre mi*/
+    .mini-curriculum {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-row: auto;
+        font-size: 18px;
+        margin-top: 60px;
+    }
+    .curriculum-dreta {
+        grid-column: 2;
+        grid-row: 1;
+        margin: 10px;
+    }
+    .curriculum-esquerra {
+        grid-column: 1;
+        grid-row: 1;
+        margin: 10px;
+    }
+    .agrupacio-curriculum {
+    margin-bottom: 30px;
+    margin-top: 10px;
+    border: 2px solid rgba(179, 179, 179, 0.11);
+    border-radius: 9px;
+    padding: 20px;
+    -webkit-box-shadow: 0px 2px 18px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 2px 18px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 2px 18px 0px rgba(0,0,0,0.75);
+    }
+    strong.text-apilat {
+        font-weight: 800;
+    }
+    p.text-apilat {
+        line-height: 20px;
+        font-weight: 500;
+    }
+    .gris {
+        color: rgb(139, 139, 139);
+        font-weight: 300;
+    }
+    @media (max-width: 750px) {
+        .mini-curriculum {
+            grid-template-columns: auto;
+            grid-template-rows: auto auto;
+        }
+        .curriculum-esquerra {
+            grid-column: 1;
+            grid-row: 1;
+        }
+        .curriculum-dreta {
+            grid-column: 1;
+            grid-row: 2;
+        }
+    }
+    /* Puzzle sobre mi */
+    .sobremi {
+        display: grid;
+        grid-template-columns: 25% 25% 25% 25%;
+        grid-template-rows: 200px 250px;
+        text-align: center;
+        margin-top: 60px;
+        color: rgb(255, 255, 255);
+    }
+    .puzzle-icona {
+        font-size: 30px;
+        margin: 0;
+        padding: 0;
+    }
+    .sobremi div h2 {
+        margin: 0;
+        padding: 0;
+    }
+    .sobremi div {
+        padding: 15px;
+        padding-top: 40px;
+    }
+    .sobremi div p a {
+        color: white;
+        font-weight: 600;
+    }
+    .puzzle-informatic {
+        grid-column-start: 1;
+        grid-column-end: 5;
+        grid-row: 1;
+        background-color:rgb(36, 36, 36)
+    }
+    .puzzle-percussio {
+        grid-column: 1;
+        grid-row: 2;
+        background-color: rgb(3, 87, 143);
+    }
+    .puzzle-reivindicatiu {
+        grid-column: 2;
+        grid-row: 2;
+        background-color: rgb(192, 1, 1);
+    }
+    .puzzle-actor {
+        grid-column: 3;
+        grid-row: 2;
+        background-color: rgb(1, 143, 1);
+    }
+    .puzzle-podcast {
+        grid-column: 4;
+        grid-row: 2;
+        background-color: rgb(235, 173, 5);
+    }
+    @media (max-width: 780px) {
+        .sobremi {
+            grid-template-columns: auto;
+            grid-template-rows: 250px 200px 200px 200px 200px;
+        }
+        .puzzle-informatic {
+            grid-column: 1;
+            grid-row: 1;
+            background-color:rgb(36, 36, 36)
+        }
+        .puzzle-percussio {
+            grid-column: 1;
+            grid-row: 2;
+            background-color: rgb(3, 87, 143);
+        }
+        .puzzle-reivindicatiu {
+            grid-column: 1;
+            grid-row: 3;
+            background-color: rgb(192, 1, 1);
+        }
+        .puzzle-actor {
+            grid-column: 1;
+            grid-row: 4;
+            background-color: rgb(1, 143, 1);
+        }
+        .puzzle-podcast {
+            grid-column: 1;
+            grid-row: 5;
+            background-color: rgb(235, 173, 5);
+        }
+    }
+
+/* Footer */
+footer {
+    margin-top: 40px;
+    width: 100%;
+    height: 80px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto;
+}
+footer.portada {
+    margin-top: 290px;
+}
+.footer-dreta {
+    grid-column: 2;
+    grid-row: 1;
+}
+.signatura,.xarxes-socials {
+    display: inline-block;
+}
+.xarxes-socials {
+    margin-top: 20px;
+    text-align: left;
+}
+.xarxes-socials li {
+    display: inline;
+}
+.xarxes-socials li a {
+    color: rgb(236, 236, 236);
+    background-color: rgb(12, 12, 12);
+    padding: 10px;
+    padding-left: 12px;
+    padding-right: 12px;
+    border: 2px solid rgb(12, 12, 12);
+    border-radius: 100%;
+}
+.xarxes-socials li a:hover {
+    background-color: rgb(236, 236, 236);
+    color: rgb(12, 12, 12);
+}
+.footer-esquerra {
+    grid-column: 1;
+    grid-row: 1;
+}
+@media (max-width: 600px) {
+    footer {
+        grid-template-columns: auto;
+        grid-template-rows: 50px 50px;
+    }
+    .footer-esquerra {
+        grid-column: 1;
+        grid-row: 1;
+    }
+    .footer-dreta {
+        grid-column: 1;
+        grid-row: 2;
+    }
+}
+
+/* Error 404 */
+.titol-error404 {
+    font-size: 75px;
+    margin: 0;
+}
+.subtitol-error404 {
+    font-size: 22px;
+}
