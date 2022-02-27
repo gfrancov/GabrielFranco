@@ -91,12 +91,12 @@
 						$(".form-inputs").css("display", "none");
 						$(".box p").css("display", "none");
 						$(".contactform").find(".output_message").addClass("success");
-						$(".output_message").text("Missatge enviat!");
+						$(".output_message").text("Message sent!");
 					} else {
 						$(".tabs-container").css("height", "440px");
 
 						$(".contactform").find(".output_message").addClass("error");
-						$(".output_message").text("No s'ha pogut enviar!");
+						$(".output_message").text("The message could'nt be sent!");
 					}
 				}
 			});

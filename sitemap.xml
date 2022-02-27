@@ -23,18 +23,8 @@
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://gabrielfranco.me/portfolio/</loc>
-  <lastmod>2021-05-14T07:49:28+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://gabrielfranco.me/contacte/</loc>
+  <loc>https://gabrielfranco.me/contact/</loc>
   <lastmod>2021-05-14T07:50:06+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://gabrielfranco.me/blog/</loc>
-  <lastmod>2021-05-13T22:30:57+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
@@ -48,23 +38,8 @@
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://gabrielfranco.me/portfolio/.</loc>
-  <lastmod>2021-05-14T07:49:28+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://gabrielfranco.me/contacte/.</loc>
+  <loc>https://gabrielfranco.me/contact/.</loc>
   <lastmod>2021-05-14T07:50:06+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://gabrielfranco.me/blog/.</loc>
-  <lastmod>2021-05-13T22:30:57+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://gabrielfranco.me/blog/posts/nou-lloc-web.html</loc>
-  <lastmod>2021-05-13T22:21:41+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 
