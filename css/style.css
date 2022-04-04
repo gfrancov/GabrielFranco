@@ -634,7 +634,8 @@ body.light hr.separator {
 .about .resume-box li {
   position: relative;
   padding: 0 20px 0 60px;
-  margin: 0 0 50px;
+  padding-bottom: 50px;
+  margin: 0 0 0px;
 }
 
 .about .resume-box li:after {
